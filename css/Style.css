@@ -1,0 +1,150 @@
+*body{
+	margin: 0px 0px;
+	background-color: #b2e1ff;
+}
+
+.slide,
+.openning {
+	width: 100%;
+	height: 660px;
+}
+h1{
+  font-size: 60px;
+}
+.slide h2 {
+  font-size: 36px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+h3 {
+  font-size: 28px;
+}
+p{
+  font-size: 20px;
+}
+.magenta{
+  color: #F81B84
+}
+.yellow{
+  color: #F5CE28;
+}
+.cyan{
+  color: #43C0F6;
+}
+.beige{
+  color: #F2EEE2;
+}
+.slide{
+  background-color: #F4F4F4;
+  color: #373737;
+}
+/*--------------------------------------------------------------------------------------------openning----------------------------------*/
+.openning{
+  background-color: #F2EEE2;
+  color: white;
+}
+.openning h1{
+  padding-top: 140px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.openning h2{
+  text-align: center;
+  padding-top: 0px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+.slide .left{
+	background-color: #43C0F6;
+	height: 100%;
+	color: white;
+}
+.slide .right{
+	background-color: #F2EEE2;
+	height: 100%;
+	color: black;
+}
+.slide {
+	text-align: center;
+}
+.slide i{
+	padding-top: 35%;
+}
+.slide div:hover{
+	color: #F81B84;
+}
+
+/*-------------------------------field work---------------------------------------------------------------------------------------------------------------*/
+.field {
+	background-color: #e9e9e9;
+}
+.field i{
+	color: #88bbd6;
+}
+.field h2{
+	text-align: left;
+	padding: 30px;
+}
+
+
+/*-------------------------------pilot---------------------------------------------------------------------------------------------------------------*/
+#pilot{
+	background-image: url("../img/pilot.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*-------------------------------pilot work divider---------------------------------------------------------------------------------------------------------------*/
+.pilotLink {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20%;
+}
+.pilotLink li {
+  padding-top: 25px;
+}
+
+
+/*-------------------------------mussel---------------------------------------------------------------------------------------------------------------*/
+
+.mussel img {
+  height: 200px;
+  width: 200px;
+  background-color: #43C0F6;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+#mussel2,
+#mussel3 {
+  height: 400px;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+}
+
+#mussel4 {
+  display: none;
+}
+#mussel5 {
+  display: none;
+}
+
+/*-------------------------------THM---------------------------------------------------------------------------------------------------------------*/
+#THM1 div{
+  display: inline-block;
+}
+#THM1 img {
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+}
+
+#THM2 img {
+  display: block;
+  margin: 0px auto;
+  width: 95%;
+  height: 400px;
+}

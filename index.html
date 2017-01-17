@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>
+		Capstone Project Mian Wang
+	</title>
+	<!-- Bootstrap -->
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="css/Style.css">
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+
+    <!-- Font icons -->
+    <script src="https://use.fontawesome.com/d4f26938c0.js"></script>
+</head>
+
+<body>
+	<div class="openning">
+		<img src="img/logo.jpg">
+		<h1 class="magenta">Capstone Project</h1>
+		<h2 class="cyan">Mian Wang</h2>
+		<h2 class="cyan">Supervisor: Lale Eristurk</h2>
+		<h2 class="cyan">Water Quality Unit</h2>
+	</div>
+
+	
+
+
+	<div class="slide" id="category">
+		<div class="col-md-6 left">
+			<i class="fa fa-flask fa-5x" aria-hidden="true"></i>
+			<h3>Field Work</h3>
+		</div>
+		<div class="col-md-6 right">
+			<i class="fa fa-desktop fa-5x" aria-hidden="true"></i>
+			<h3>Office Work</h3>
+		</div>		
+	</div>
+
+	<div class="slide field" id="pilot">
+		<h2>Reverse Osmosis Pilot</h2>
+	</div>  <!-- end of slide field -->
+
+	<div class="slide">
+		<div class="color1">
+			<h3>Operate the RO Pilot</h3>
+			<li>
+				<ul>Assist in the transition from manuel operation to auto operation</ul>
+				<ul>Water Quality Monitoring</ul>
+				<ul>Assist in CIP</ul>
+			</li>
+		</div>
+		<div class="color2">
+			<h3>RO Pilot Data Normalization</h3>
+				<ul>Combined-stages and Separate-stage Spreadsheet</ul>
+				<ul>Automatic Data Normalization Sheet</ul>
+		</div>
+
+
+	</div>
+
+	<div class="slide" id="pilotLink">
+		<div class="col-md-6 left" id="pilotLink1">
+			<i id="wrench" class="fa fa-wrench fa-5x" aria-hidden="true" onclick="change1()"></i>
+			<h3>Operation</h3>
+		</div>
+		<div class="col-md-6 right" id="pilotLink2">
+			<i id="line"class="fa fa-line-chart fa-5x" aria-hidden="true" onclick="change2()"></i>
+			<h3>Data Analysis</h3>
+		</div>
+	</div>
+
+	<div class="slide">
+		<h2>Pipeline Disinfection: Snell Phase 3</h2>
+		<p>Disinfection Site</p>
+		<p>Monitoring Site</p>
+	</div>
+
+	<div class="slide mussel">
+		<h2>Invasive Mussel Monitoring</h2>
+		<div class="col-md-12" id="mussel1">
+			<img src="img/mussel3.png" onclick="changeBgMussel()">
+			<p>Invasive mussle species: zebra mussle</p>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-offset-4 col-md-3" id="mussel2"></div>
+			<div class="col-md-12"id="mussel4">
+			<h3 >Substrates</h3>
+			
+			
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-offset-1 col-md-3 " id="mussel3"></div>
+			<div class="col-md-8" id="mussel5">
+			<h3>Veliger Sampling</h3>
+			</div>
+		</div>
+		
+		
+	</div>
+
+	<div class="slide office">
+		<h2>PWTP Turbidity Spikes</h2>
+	</div>
+
+	<div class="slide office" id="THM1">
+		<h2>THM Formation Potential- SJWC and SCVWD Collaboration</h2>
+		<div class="col-md-4">STWTP</div>
+		<div class="col-md-8"><img src="img/STWTP.png"></div>
+		
+	</div>
+
+	<div class="slide office" id="THM2">
+		<h2>THM Formation Potential- SJWC and SCVWD Collaboration</h2>
+		<div class="col-md-offset-2 col-md-8 THM">
+			<h3>RWTP</h3>
+			<img src="img/PWTP.png">
+		</div>
+	</div>
+	<div class="slide office">
+		<h2>ODMS and Excel Dashboard</h2>
+	</div>
+	<div class="slide office">
+		<h2>Source Water Quality Reports</h2>
+	</div>
+	<div class="slide office">
+		<h2>Cyanotoxin FAQ</h2>
+	</div>
+
+	<div class="slide" id="divide">
+		<button type="button" onclick="changeBg()">Click</button>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
